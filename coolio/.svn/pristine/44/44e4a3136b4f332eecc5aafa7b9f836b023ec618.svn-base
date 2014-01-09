@@ -1,0 +1,21 @@
+I, [2013-11-10T13:18:33.960902 #18554]  INFO -- : Refreshing Gem list
+I, [2013-11-10T13:18:36.936594 #18554]  INFO -- : listening on addr=0.0.0.0:8080 fd=7
+I, [2013-11-10T13:18:37.206477 #18557]  INFO -- : worker=0 ready
+I, [2013-11-10T13:18:37.206328 #18554]  INFO -- : master process ready
+I, [2013-11-10T13:18:37.212623 #18558]  INFO -- : worker=1 ready
+E, [2013-11-12T11:16:14.511351 #18554] ERROR -- : worker=0 PID:18557 timeout (61s > 60s), killing
+E, [2013-11-12T11:16:14.529322 #18554] ERROR -- : reaped #<Process::Status: pid=18557,signaled(SIGKILL=9)> worker=0
+I, [2013-11-12T11:16:14.551897 #21722]  INFO -- : worker=0 ready
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"b1f8bb2d73515311076291917caf83238beca310"
+true
+"b1f8bb2d73515311076291917caf83238beca310"
+true
+I, [2013-11-17T14:31:13.356979 #18554]  INFO -- : reaped #<Process::Status: pid=18558,exited(0)> worker=1
+I, [2013-11-17T14:31:13.357544 #18554]  INFO -- : reaped #<Process::Status: pid=21722,exited(0)> worker=0
+I, [2013-11-17T14:31:13.357846 #18554]  INFO -- : master complete

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">お得！</string>
+    <string name="hello_world">ハローワールド!</string>
+    <string name="btn_login">ログイン</string>
+
+</resources>

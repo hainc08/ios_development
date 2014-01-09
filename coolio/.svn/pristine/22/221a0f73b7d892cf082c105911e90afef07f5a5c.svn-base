@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">Desc</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Define name for button label -->
+    <string name="btn_login">Login</string>
+    <string name="btn_unsubcrible">UnSubcribe</string>
+
+    <!-- Define name for tab -->
+    <string name="member_title">Coolio</string>
+    <string name="member_detail">Profile</string>
+    <string name="my_friends">My friends</string>
+    <string name="silent_match"> Silent Match</string>
+
+    <!-- Define name for left menu -->
+    <string name="menu_meetup">Meetup</string>
+    <string name="menu_member">Members</string>
+    <string name="menu_myfriend">My Friends</string>
+    <string name="menu_slientmatch">Slient Match</string>
+    <string name="menu_history">My History</string>
+    <string name="menu_chats">Chats</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_friend">Friends</string>
+    <string name="menu_matched">Matched</string>
+    <string name="menu_footprint">Footprint</string>
+    <string name="menu_alert">Alert</string>
+    <string name="menu_general">General</string>
+    <string name="menu_information">Information</string>
+    <string name="menu_profile">Profile and Settings</string>
+    <string name="menu_passlock">Pass-Lock</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_term">Term and Policy</string>
+    <string name="menu_unsubcribe">Unsubcribe</string>
+
+    <!-- Define message please review -->
+    <string name="no_internet_title">Can not connect to the server</string>
+    <string name="no_internet_content">Can not connect to the server. Please check network status</string>
+    <string name="close">Close</string>
+    <string name="require">Required item</string>
+    <string name="error">Error</string>
+    <string name="error_message">There is an error when login. Please try again!</string>
+
+    <!-- Define message for login activity -->
+    <string name="requeire_login">Login ID or Password is empty.</string>
+    <string name="error_login">Login ID or Password is different.!</string>
+    <string name="error_lock">This account locked.</string>
+    <string name="invalid_email">Not in the E-mail format.</string>
+
+    <!-- Define info label in FriendAdapter -->
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="lookingLover">Lover</string>
+    <string name="lookingFriend">Friend</string>
+    <string name="lookingEPal">E-Pal</string>
+    <string name="lookingMPal">Messenger Pal</string>
+    <string name="lookingTPal">Tel Pal</string>
+    <string name="lookingCircle">Circle / Groupmate</string>
+    <string name="lookingRoommate">Roommate</string>
+    <string name="lookingBPartner">Business Partner</string>
+    <string name="lookingFriendWithBenefits">Friend with Benefits</string>
+
+    <!-- Define term and policy -->
+    <string name="term_policy">Coolio agreement for use
+        \n
+\nNovember 1, 2013 enactment
+\n
+\nLimited partnership Giga works (Hereafter, it is said, "Our company") does the use permission of application software "Coolio" (Hereafter, it is said, "This application program") to the user by this agreement for use (Hereafter, it is said, "This rule").
+\n
+\nIntroduction
+\n
+\nThe user downloads this application program after it agrees to this rule beforehand, and assumes the one that is installed or used. Please the user cannot use this application program when it is not possible to agree to this rule, and download this application program at once in that case, and discontinue the installation or use.
+\n
+\nIt is considered that it agrees to this rule when the user downloads, and installs or uses the application program.
+\n
+\nOur company might change this rule. The agreement for use after it changes is assumed to be the one to go into force when posted on this site. When it is not possible to agree to this rule after the user changes, it is assumed the one to delete this application program from a terminal unit concerned at once. It is considered that it agrees to this rule after it changes when this application program is used after this rule is changed.
+\n
+\n2. Imputation of right of copyright etc.
+\n2.1	All rights concerning this application program belong to the third party who has our company or a right power. Our company reproduces without permission, edits, modifies, analyzes, opens to the public, broadcasts, exhibits, distributes, is an assignment, loans, and translates this application program into our company, except when providing in this rule.   It is prohibited to do the action that violates right belonging to a third person that has our company or the copyrights of the enrollment of the adaptation, the transmission, the reprint, the log, the re-permission, and the right and the applications, etc.
+\n2.2	Our company doesn\'t disturb the exercise of the copyright and the moral right that lies contents and animation that the user is used this application program and made. However, the user assumes the one to abide by by the regulation of this rule.
+\n
+\n3. User\'s responsibility
+\n3.1	The user assumes the one agreeing all the actions performed by assuming the one to use this application program in the self-responsibility of the user, and using this application program and to assume all the responsibilities of the damage to the row as a result.
+\n3.2	A user concerned should solve in own responsibility and charge when the user damages others\' honor for the use of this application program or the privacy right is violated or third party\'s personal web page is disclosed without permission or others\' rights (It is assumed the one not the best to these though the copyright, right of trademark, and the right of portrait, etc. are contained) are violated additionally, and our company doesn\'t assume the responsibility at all.
+\n
+\n4. Prohibited matter
+\n4.1	When this application program is used, the user assumes the one that do not do the action that hangs next. When the damage is caused by user\'s misconduct in our company, the user assumes the one to assume the responsibility that compensates for the damage.
+\n(1)	Use or make information, contents, and the making animation including the hanging matter in this application program as follows.
+\n(1)	The one including content right belonging to a third person like copyright, right of trademark, privacy right, right of portrait, and honor, etc. is violated or with the fear.
+\n(2)	The one including matter that hangs to third party\'s privacy.
+\n(3)	The one (It is not the best to these though the case where it is used in the content of the name of the contributor and the contribution is contained) including third party\'s personal web page (information that can specify the individual like others\' name, title, mail address, address, and telephone numbers, etc.).
+\n(4)	The one including pornographic picture and content of other indecent.
+\n(5)	Those photographs, violent, grotesque, regular users feel uncomfortable.
+\n(6)	Unreasonably uncouthness and cruelty or the crime are causing promoted to the child and the youth, and the one including the content that obstructs the healthy development.
+\n(7)	The one including prescript and content it offends public order and morals or with the fear.
+\n(8)	The one including discriminatory expression.
+\n(9)	Improper expressions of slander (slander), slander, complaint to our company or specific enterprise, corporation, group, region, and individual, and discriminatory slurs, etc. (The expression with asterisk is included).
+\n(2)	Use this application program by the methods other than our approving.
+\n(3)	Do this application program in modifying, assembling reversely, decompiling, and the reverse engineering.
+\n(4)	Use this application program in commerce and the money making purpose exceeding personal use.
+\n(5)	Do the action rights of our or third party\'s copyright, right of trademark, the privacy right, the right of portrait, and honor, etc. are violated or with the fear.
+\n(6)	Do the action that violates the prescript, public order and morality or this agreement for use, etc.
+\n5. Exemption matters
+\n5.1	Our company doesn\'t guarantee that this application program doesn\'t violate right belonging to a third person. When this application program violates right belonging to a third person by any chance or the fear turns out, the user assumes the one to delete this application program promptly.
+\n5.2	Our company will not do the guarantee of this application program of the accuracy, validity, applicability, and adaptability and all other matter to utility, the operation guarantee, and use and the machine used. The damage depends on our mens rea or gross negligence even if it is time when it damaged by the user for this application program, and our company doesn\'t assume the responsibility of all the damages caused in the user or the third party for this application program.
+\n
+\n6. User\'s obligation
+\n6.1	The user assumes the one to abide by by applicable laws and regulations concerning this application program (The foreign exchange, Foreign Trade Law, and the applicable laws and regulations, etc. are included).
+\n6.2	When he or she disadvantages it to the consequence, our company or the third party who violated this rule, the user assumes the one to compensate for the damage.
+\n6.3	The user processing solves all in own charge and the responsibility when this application program is downloaded by own free will, it is assumed the one that is installed or used, and generates the dispute etc. among third parties for this application program, and assumes the one that our company is not allowed to suffer any damage etc.
+\n
+\n7. Prohibition of transfer of rights and duties
+\nThe user assumes the one that is not transferred to the third party, except when our company approves the right based on a position as the user concerning this application program and a position concerned and the duty beforehand or nor supplied to collateral.
+\n
+\n8. Applicable law
+\n
+\nIt is assumed the one that laws of Japan are applied for approval, the proficiency, the fulfillment, and the solution of this rule.
+\n
+\n9. Competent court
+\n
+\nWhen lawsuits are instituted for all disputes concerning this rule, Tokyo District Court is assumed to be a competent court of belonging exclusively of the first instance.
+\n
+\nThe above</string>
+    <string name="unsubscribe_rule">Your account will be disabled when you withdraw from Coolio
+        \nYou can not restore your account
+        \nYou can not reuse the same e-mail address.</string>
+
+    <!-- define message -->
+    <string name="email">E-mail</string>
+    <string name="require_email">Please enter your email</string>
+    <string name="password">Password</string>
+    <string name="require_password">Please enter your password</string>
+
+    <!-- define label title -->
+    <string name="chat_title">Chat</string>
+    <string name="add_friend_title">Add Friend</string>
+    <string name="silent_match_title">Silent Match</string>
+    <string name="update_title">Last update</string>
+    <string name="distance_title">Distance</string>
+
+</resources>

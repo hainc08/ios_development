@@ -1,0 +1,1628 @@
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT id FROM users
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, email FROM users WHERE DATEDIFF(NOW(), updated_at) >= 100 OR freezeAccount = true
+[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 5
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 7[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 11
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.4ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 3[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 12
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.4ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 8[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 2
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 13[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 9
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 6
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 10[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 4
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (2.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (8.4ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.2ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (6.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (7.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.4ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.7ms)[0m  [1m SELECT id FROM users
+[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, email FROM users WHERE DATEDIFF(NOW(), updated_at) >= 100 OR freezeAccount = true
+[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 5
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 7[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 11
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.3ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 3[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 12
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 8[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.8ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 2
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 13[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.3ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 9
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 6
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 10[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 4
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.8ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   13 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  UPDATE `users` SET `updated_at` = '2013-12-02 13:10:06', `online` = 0 WHERE `users`.`id` = 2
+  [1m[36m (106.4ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (2.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.2ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (6.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (3.4ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, email FROM users WHERE DATEDIFF(NOW(), updated_at) >= 100 OR freezeAccount = true
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT id FROM users
+[0m
+  [1m[35mNotificationCount Load (0.3ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 5
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 7[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 11
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.4ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 3[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (5.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 12
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 8[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 2
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (3.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 13[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 9
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.4ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 6
+  [1m[36m (5.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 10[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 4
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.5ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (6.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (6.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (2.5ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.5ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (6.5ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, email FROM users WHERE DATEDIFF(NOW(), updated_at) >= 100 OR freezeAccount = true
+[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT id FROM users
+[0m
+  [1m[35mEXPLAIN (0.5ms)[0m  EXPLAIN SELECT id FROM users
+
+EXPLAIN for:       SELECT id FROM users
+
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+| id | select_type | table | type  | possible_keys | key            | key_len | ref  | rows | Extra       |
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | index | NULL          | idx_user_email | 767     | NULL |   13 | Using index |
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 5[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 7
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 11[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 3
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 12[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 8
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.7ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 2[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.8ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 13
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.9ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 9[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.7ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 6[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 10
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 4[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.5ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mUPDATE `users` SET `online` = 0, `updated_at` = '2013-12-04 09:10:04' WHERE `users`.`id` = 14[0m
+  [1m[35m (72.2ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (4.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.8ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   14 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.1ms)[0m  UPDATE `users` SET `updated_at` = '2013-12-04 11:10:05', `online` = 0 WHERE `users`.`id` = 2
+  [1m[36m (72.2ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (3.5ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (7.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   14 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  UPDATE `users` SET `updated_at` = '2013-12-04 19:10:05', `online` = 0 WHERE `users`.`id` = 3
+  [1m[36m (54.2ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   14 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  UPDATE `users` SET `updated_at` = '2013-12-04 20:10:05', `online` = 0 WHERE `users`.`id` = 3
+  [1m[36m (57.3ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.8ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   14 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  UPDATE `users` SET `updated_at` = '2013-12-04 21:10:05', `online` = 0 WHERE `users`.`id` = 3
+  [1m[36m (80.8ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.7ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   14 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  UPDATE `users` SET `updated_at` = '2013-12-04 22:10:06', `online` = 0 WHERE `users`.`id` = 2
+  [1m[36m (59.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.9ms)[0m  [1mUPDATE `users` SET `updated_at` = '2013-12-04 22:10:06', `online` = 0 WHERE `users`.`id` = 3[0m
+  [1m[35m (13.8ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mUser Load (7.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.6ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   14 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  UPDATE `users` SET `online` = 0, `updated_at` = '2013-12-04 23:10:07' WHERE `users`.`id` = 3
+  [1m[36m (53.1ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.5ms)[0m  [1m SELECT id FROM users
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, email FROM users WHERE DATEDIFF(NOW(), updated_at) >= 100 OR freezeAccount = true
+[0m
+  [1m[35mEXPLAIN (0.8ms)[0m  EXPLAIN SELECT id FROM users
+
+EXPLAIN for:       SELECT id FROM users
+
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+| id | select_type | table | type  | possible_keys | key            | key_len | ref  | rows | Extra       |
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | index | NULL          | idx_user_email | 767     | NULL |   16 | Using index |
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 5[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 7
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (1.0ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 11[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 3
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.7ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 12[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 8
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 2[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.8ms)[0m  BEGIN
+  [1m[36m (3.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.7ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.6ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (3.6ms)[0m  BEGIN
+  [1m[36m (3.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (2.7ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (3.3ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (5.0ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (4.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.8ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 13
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.7ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 9[0m
+  [1m[35m (2.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.7ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (1.7ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 6[0m
+  [1m[35m (1.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (8.8ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 10
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (1.8ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 14[0m
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (2.0ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 4
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (4.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.7ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 16[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 15
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (6.4ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.4ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (3.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (6.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, email FROM users WHERE DATEDIFF(NOW(), updated_at) >= 100 OR freezeAccount = true
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT id FROM users
+[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 5
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 7[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.3ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 11
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (3.0ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 3[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 12
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 8[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 2
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (4.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.4ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 13[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 9
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.4ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 6
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.5ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 10[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 14
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.4ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 4[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 16
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.3ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 15[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (5.4ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.6ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, email FROM users WHERE DATEDIFF(NOW(), updated_at) >= 100 OR freezeAccount = true
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT id FROM users
+[0m
+  [1m[35mEXPLAIN (1.0ms)[0m  EXPLAIN SELECT id FROM users
+
+EXPLAIN for:       SELECT id FROM users
+
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+| id | select_type | table | type  | possible_keys | key            | key_len | ref  | rows | Extra       |
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | index | NULL          | idx_user_email | 767     | NULL |   17 | Using index |
++----+-------------+-------+-------+---------------+----------------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 5[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 7
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 17[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 11
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (2.8ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 3[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 12
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 8[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.5ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 2
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.9ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (1.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (3.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (2.7ms)[0m  COMMIT
+  [1m[36m (1.9ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.7ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 13[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.6ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 9
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.8ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (1.0ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 6
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 10[0m
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (0.8ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 14
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 4[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mNotificationCount Load (1.4ms)[0m  SELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 16
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  [1m[36mNotificationCount Load (0.6ms)[0m  [1mSELECT `notification_counts`.* FROM `notification_counts` WHERE `notification_counts`.`my_id` = 15[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.4ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.8ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (2.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (5.5ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.0ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (2.3ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (2.9ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+  [1m[35mEXPLAIN (0.7ms)[0m  EXPLAIN SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+
+EXPLAIN for:       SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true  AND freezeAccount = false
+
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+| id | select_type | table | type | possible_keys | key  | key_len | ref  | rows | Extra       |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+|  1 | SIMPLE      | users | ALL  | NULL          | NULL | NULL    | NULL |   20 | Using where |
++----+-------------+-------+------+---------------+------+---------+------+------+-------------+
+1 row in set (0.00 sec)
+
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.2ms)[0m  UPDATE `users` SET `updated_at` = '2013-12-07 23:10:06', `online` = 0 WHERE `users`.`id` = 2
+  [1m[36m (47.6ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.1ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.3ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (1.2ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m
+Connecting to database specified by database.yml
+  [1m[36mUser Load (0.7ms)[0m  [1m SELECT DISTINCT id, online FROM users WHERE updated_at > 600 AND online = true AND freezeAccount = false
+[0m

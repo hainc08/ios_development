@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="120dp"
+    android:layout_marginTop="5dp"
+    android:background="#ffffff"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical" >
+
+    <Framelayout
+        android:id="@+id/image_region"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/online_status"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imageDetail"
+            android:layout_width="100dp"
+            android:layout_height="100dp" >
+        </ImageView>
+    </Framelayout>
+
+    <ProgressBar
+        android:id="@+id/loadImageProgressBar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_region"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="#a277a2"
+        android:textSize="12sp" >
+    </TextView>
+
+</RelativeLayout>

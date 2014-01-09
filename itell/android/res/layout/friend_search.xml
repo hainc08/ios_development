@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/friend_title"
+            android:textColor="@android:color/black"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/friendSearch_btnFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="7dip"
+            android:background="@drawable/button_friend" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/friendSearch_editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/search_box"
+            android:hint="name"
+            android:paddingLeft="25dip" />
+
+        <Button
+            android:id="@+id/friendSearch_btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/button_search" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout22"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerInParent="true" >
+
+        <LinearLayout
+            android:id="@+id/setting_rl_profile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_list_bg"
+            android:duplicateParentState="true"
+            android:tag="item_move" >
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:src="@drawable/vcard_icon" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/img1"
+                android:paddingLeft="15dip"
+                android:src="@drawable/text_11" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/friendSearch_ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:layout_marginTop="5dip"
+            android:background="@android:color/darker_gray" >
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="inviteddd?" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:layout_marginTop="5dip"
+            android:background="@android:color/darker_gray" >
+        </LinearLayout>
+
+        <com.icts.control.SwipListView
+            android:id="@+id/friendSearch_listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/line"
+            android:fadingEdge="none"
+            android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+            android:persistentDrawingCache="animation|scrolling"
+            android:scrollbarThumbVertical="@drawable/scrollbar_y"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/friendSearch_ll2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:layout_marginTop="5dip"
+            android:background="@android:color/darker_gray" >
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:text="@string/friend_who" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:layout_marginTop="5dip"
+            android:background="@android:color/darker_gray" >
+        </LinearLayout>
+
+        <com.icts.control.SwipListView
+            android:id="@+id/friendSearch_listView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/line"
+            android:fadingEdge="none"
+            android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+            android:persistentDrawingCache="animation|scrolling"
+            android:scrollbarThumbVertical="@drawable/scrollbar_y"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+</LinearLayout>

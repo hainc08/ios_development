@@ -1,0 +1,2 @@
+module InfoServiceHelper
+end

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>36AEF6A8-47A3-4939-B182-9E3F760EC845</string>
+	<key>IDESourceControlProjectName</key>
+	<string>notore</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B397FD65-B956-4AE8-A5CD-6F7989F5F6FF</key>
+		<string>http://210.245.85.175/svn/notore</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/07.Source/notore/notore.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B397FD65-B956-4AE8-A5CD-6F7989F5F6FF</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>B397FD65-B956-4AE8-A5CD-6F7989F5F6FF</key>
+		<string>http://210.245.85.175/svn/notore</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://210.245.85.175/svn/notore/trunk/07.Source/notore/notore.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B397FD65-B956-4AE8-A5CD-6F7989F5F6FF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B397FD65-B956-4AE8-A5CD-6F7989F5F6FF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN_NoTore</string>
+		</dict>
+	</array>
+</dict>
+</plist>

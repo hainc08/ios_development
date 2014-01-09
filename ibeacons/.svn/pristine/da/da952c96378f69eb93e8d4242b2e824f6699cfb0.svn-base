@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021997F6187BD118008A118D /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 021997F3187BD118008A118D /* NSDictionary+Additions.m */; };
+		021997F7187BD118008A118D /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 021997F5187BD118008A118D /* Util.m */; };
+		022AA954186AD0070033185E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022AA953186AD0070033185E /* AudioToolbox.framework */; };
+		02309B11186D770C00EB9508 /* detector.png in Resources */ = {isa = PBXBuildFile; fileRef = 02309B0F186D770C00EB9508 /* detector.png */; };
+		02309B12186D770C00EB9508 /* detector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02309B10186D770C00EB9508 /* detector@2x.png */; };
+		02309B14186D78BA00EB9508 /* btn-setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02309B13186D78BA00EB9508 /* btn-setting@2x.png */; };
+		02309B36186D953E00EB9508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02309B35186D953E00EB9508 /* Images.xcassets */; };
+		02343B5C18697646002478F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02343B5B18697646002478F0 /* UIKit.framework */; };
+		02343B5E18697646002478F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02343B5D18697646002478F0 /* Foundation.framework */; };
+		02343B6018697646002478F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02343B5F18697646002478F0 /* CoreGraphics.framework */; };
+		02343B6618697646002478F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02343B6418697646002478F0 /* InfoPlist.strings */; };
+		02343B6818697646002478F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02343B6718697646002478F0 /* main.m */; };
+		02343B6C18697646002478F0 /* VNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02343B6B18697646002478F0 /* VNAppDelegate.m */; };
+		02343B6E18697646002478F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02343B6D18697646002478F0 /* Default.png */; };
+		02343B7018697646002478F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02343B6F18697646002478F0 /* Default@2x.png */; };
+		02343B7218697646002478F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02343B7118697646002478F0 /* Default-568h@2x.png */; };
+		02343B7518697646002478F0 /* VNReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02343B7418697646002478F0 /* VNReceiveViewController.m */; };
+		02343B7818697646002478F0 /* VNReceiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02343B7618697646002478F0 /* VNReceiveViewController.xib */; };
+		0235835118697EBE00392449 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0235835018697EBE00392449 /* CoreLocation.framework */; };
+		0235835318697EC600392449 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0235835218697EC600392449 /* CoreBluetooth.framework */; };
+		023583551869813900392449 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023583541869813900392449 /* MediaPlayer.framework */; };
+		02358359186981E900392449 /* VNPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02358357186981E900392449 /* VNPlayViewController.m */; };
+		0235835A186981E900392449 /* VNPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02358358186981E900392449 /* VNPlayViewController.xib */; };
+		0235835D1869939900392449 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0235835C1869939900392449 /* Reachability.m */; };
+		0235835F186993C800392449 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0235835E186993C800392449 /* SystemConfiguration.framework */; };
+		023F8603187E605600640D30 /* VNContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 023F8602187E605600640D30 /* VNContent.m */; };
+		025958F9186D18B300416C5A /* VNSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025958F7186D18B300416C5A /* VNSettingViewController.m */; };
+		025958FA186D18B300416C5A /* VNSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025958F8186D18B300416C5A /* VNSettingViewController.xib */; };
+		025958FD186D524A00416C5A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025958FC186D524A00416C5A /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021997F2187BD118008A118D /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		021997F3187BD118008A118D /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		021997F4187BD118008A118D /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		021997F5187BD118008A118D /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		022AA953186AD0070033185E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		022AA955186AD0070033185E /* iBeacon Receiver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "iBeacon Receiver.entitlements"; sourceTree = "<group>"; };
+		02309B0F186D770C00EB9508 /* detector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detector.png; sourceTree = "<group>"; };
+		02309B10186D770C00EB9508 /* detector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detector@2x.png"; sourceTree = "<group>"; };
+		02309B13186D78BA00EB9508 /* btn-setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-setting@2x.png"; sourceTree = "<group>"; };
+		02309B35186D953E00EB9508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02343B5818697646002478F0 /* iBeacon 受信側.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iBeacon 受信側.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02343B5B18697646002478F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02343B5D18697646002478F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02343B5F18697646002478F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02343B6318697646002478F0 /* VNReceiverBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VNReceiverBeacon-Info.plist"; sourceTree = "<group>"; };
+		02343B6518697646002478F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02343B6718697646002478F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02343B6918697646002478F0 /* VNReceiverBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VNReceiverBeacon-Prefix.pch"; sourceTree = "<group>"; };
+		02343B6A18697646002478F0 /* VNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNAppDelegate.h; sourceTree = "<group>"; };
+		02343B6B18697646002478F0 /* VNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNAppDelegate.m; sourceTree = "<group>"; };
+		02343B6D18697646002478F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		02343B6F18697646002478F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		02343B7118697646002478F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		02343B7318697646002478F0 /* VNReceiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNReceiveViewController.h; sourceTree = "<group>"; };
+		02343B7418697646002478F0 /* VNReceiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNReceiveViewController.m; sourceTree = "<group>"; };
+		02343B7718697646002478F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VNReceiveViewController.xib; sourceTree = "<group>"; };
+		0235835018697EBE00392449 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0235835218697EC600392449 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		023583541869813900392449 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		02358356186981E900392449 /* VNPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNPlayViewController.h; sourceTree = "<group>"; };
+		02358357186981E900392449 /* VNPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNPlayViewController.m; sourceTree = "<group>"; };
+		02358358186981E900392449 /* VNPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VNPlayViewController.xib; sourceTree = "<group>"; };
+		0235835B1869939900392449 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0235835C1869939900392449 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0235835E186993C800392449 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		023F8601187E605600640D30 /* VNContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNContent.h; sourceTree = "<group>"; };
+		023F8602187E605600640D30 /* VNContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNContent.m; sourceTree = "<group>"; };
+		025958F6186D18B300416C5A /* VNSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNSettingViewController.h; sourceTree = "<group>"; };
+		025958F7186D18B300416C5A /* VNSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNSettingViewController.m; sourceTree = "<group>"; };
+		025958F8186D18B300416C5A /* VNSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VNSettingViewController.xib; sourceTree = "<group>"; };
+		025958FB186D524A00416C5A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		025958FC186D524A00416C5A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02343B5518697646002478F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0235835F186993C800392449 /* SystemConfiguration.framework in Frameworks */,
+				023583551869813900392449 /* MediaPlayer.framework in Frameworks */,
+				0235835318697EC600392449 /* CoreBluetooth.framework in Frameworks */,
+				022AA954186AD0070033185E /* AudioToolbox.framework in Frameworks */,
+				0235835118697EBE00392449 /* CoreLocation.framework in Frameworks */,
+				02343B5C18697646002478F0 /* UIKit.framework in Frameworks */,
+				02343B5E18697646002478F0 /* Foundation.framework in Frameworks */,
+				02343B6018697646002478F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021997EC187BD0D0008A118D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				023F8600187E605600640D30 /* Model */,
+				021997F1187BD118008A118D /* Helps */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		021997F1187BD118008A118D /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				021997F2187BD118008A118D /* NSDictionary+Additions.h */,
+				021997F3187BD118008A118D /* NSDictionary+Additions.m */,
+				021997F4187BD118008A118D /* Util.h */,
+				021997F5187BD118008A118D /* Util.m */,
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
+		02343B4F18697646002478F0 = {
+			isa = PBXGroup;
+			children = (
+				02343B6118697646002478F0 /* VNReceiverBeacon */,
+				02343B5A18697646002478F0 /* Frameworks */,
+				02343B5918697646002478F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02343B5918697646002478F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02343B5818697646002478F0 /* iBeacon 受信側.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02343B5A18697646002478F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				022AA953186AD0070033185E /* AudioToolbox.framework */,
+				0235835E186993C800392449 /* SystemConfiguration.framework */,
+				023583541869813900392449 /* MediaPlayer.framework */,
+				0235835218697EC600392449 /* CoreBluetooth.framework */,
+				0235835018697EBE00392449 /* CoreLocation.framework */,
+				02343B5B18697646002478F0 /* UIKit.framework */,
+				02343B5D18697646002478F0 /* Foundation.framework */,
+				02343B5F18697646002478F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02343B6118697646002478F0 /* VNReceiverBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				021997EC187BD0D0008A118D /* Classes */,
+				02309B13186D78BA00EB9508 /* btn-setting@2x.png */,
+				02309B0F186D770C00EB9508 /* detector.png */,
+				02309B10186D770C00EB9508 /* detector@2x.png */,
+				022AA955186AD0070033185E /* iBeacon Receiver.entitlements */,
+				0235835B1869939900392449 /* Reachability.h */,
+				0235835C1869939900392449 /* Reachability.m */,
+				02343B6A18697646002478F0 /* VNAppDelegate.h */,
+				02343B6B18697646002478F0 /* VNAppDelegate.m */,
+				02343B7318697646002478F0 /* VNReceiveViewController.h */,
+				02343B7418697646002478F0 /* VNReceiveViewController.m */,
+				02343B7618697646002478F0 /* VNReceiveViewController.xib */,
+				02358356186981E900392449 /* VNPlayViewController.h */,
+				02358357186981E900392449 /* VNPlayViewController.m */,
+				02358358186981E900392449 /* VNPlayViewController.xib */,
+				025958F6186D18B300416C5A /* VNSettingViewController.h */,
+				025958F7186D18B300416C5A /* VNSettingViewController.m */,
+				025958F8186D18B300416C5A /* VNSettingViewController.xib */,
+				025958FB186D524A00416C5A /* BaseViewController.h */,
+				025958FC186D524A00416C5A /* BaseViewController.m */,
+				02309B35186D953E00EB9508 /* Images.xcassets */,
+				02343B6218697646002478F0 /* Supporting Files */,
+			);
+			path = VNReceiverBeacon;
+			sourceTree = "<group>";
+		};
+		02343B6218697646002478F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02343B6318697646002478F0 /* VNReceiverBeacon-Info.plist */,
+				02343B6418697646002478F0 /* InfoPlist.strings */,
+				02343B6718697646002478F0 /* main.m */,
+				02343B6918697646002478F0 /* VNReceiverBeacon-Prefix.pch */,
+				02343B6D18697646002478F0 /* Default.png */,
+				02343B6F18697646002478F0 /* Default@2x.png */,
+				02343B7118697646002478F0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		023F8600187E605600640D30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				023F8601187E605600640D30 /* VNContent.h */,
+				023F8602187E605600640D30 /* VNContent.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02343B5718697646002478F0 /* VNReceiverBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02343B7B18697646002478F0 /* Build configuration list for PBXNativeTarget "VNReceiverBeacon" */;
+			buildPhases = (
+				02343B5418697646002478F0 /* Sources */,
+				02343B5518697646002478F0 /* Frameworks */,
+				02343B5618697646002478F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNReceiverBeacon;
+			productName = VNReceiverBeacon;
+			productReference = 02343B5818697646002478F0 /* iBeacon 受信側.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02343B5018697646002478F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = vnext;
+				TargetAttributes = {
+					02343B5718697646002478F0 = {
+						DevelopmentTeam = PZ929R6TQ9;
+					};
+				};
+			};
+			buildConfigurationList = 02343B5318697646002478F0 /* Build configuration list for PBXProject "VNReceiverBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02343B4F18697646002478F0;
+			productRefGroup = 02343B5918697646002478F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02343B5718697646002478F0 /* VNReceiverBeacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02343B5618697646002478F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0235835A186981E900392449 /* VNPlayViewController.xib in Resources */,
+				02309B11186D770C00EB9508 /* detector.png in Resources */,
+				02309B14186D78BA00EB9508 /* btn-setting@2x.png in Resources */,
+				025958FA186D18B300416C5A /* VNSettingViewController.xib in Resources */,
+				02309B36186D953E00EB9508 /* Images.xcassets in Resources */,
+				02343B6618697646002478F0 /* InfoPlist.strings in Resources */,
+				02343B6E18697646002478F0 /* Default.png in Resources */,
+				02343B7018697646002478F0 /* Default@2x.png in Resources */,
+				02309B12186D770C00EB9508 /* detector@2x.png in Resources */,
+				02343B7218697646002478F0 /* Default-568h@2x.png in Resources */,
+				02343B7818697646002478F0 /* VNReceiveViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02343B5418697646002478F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02343B6818697646002478F0 /* main.m in Sources */,
+				023F8603187E605600640D30 /* VNContent.m in Sources */,
+				02343B6C18697646002478F0 /* VNAppDelegate.m in Sources */,
+				02358359186981E900392449 /* VNPlayViewController.m in Sources */,
+				025958F9186D18B300416C5A /* VNSettingViewController.m in Sources */,
+				02343B7518697646002478F0 /* VNReceiveViewController.m in Sources */,
+				021997F7187BD118008A118D /* Util.m in Sources */,
+				021997F6187BD118008A118D /* NSDictionary+Additions.m in Sources */,
+				025958FD186D524A00416C5A /* BaseViewController.m in Sources */,
+				0235835D1869939900392449 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02343B6418697646002478F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02343B6518697646002478F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02343B7618697646002478F0 /* VNReceiveViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02343B7718697646002478F0 /* en */,
+			);
+			name = VNReceiveViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02343B7918697646002478F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02343B7A18697646002478F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02343B7C18697646002478F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "VNReceiverBeacon/iBeacon Receiver.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: VNext software jsc (QFE5D73789)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VNReceiverBeacon/VNReceiverBeacon-Prefix.pch";
+				INFOPLIST_FILE = "VNReceiverBeacon/VNReceiverBeacon-Info.plist";
+				PRODUCT_NAME = "iBeacon 受信側";
+				PROVISIONING_PROFILE = "E0111B41-ACA8-4D62-AE5D-AA689AAB649B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02343B7D18697646002478F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "VNReceiverBeacon/iBeacon Receiver.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: VNext software jsc (QFE5D73789)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VNReceiverBeacon/VNReceiverBeacon-Prefix.pch";
+				INFOPLIST_FILE = "VNReceiverBeacon/VNReceiverBeacon-Info.plist";
+				PRODUCT_NAME = "iBeacon 受信側";
+				PROVISIONING_PROFILE = "E0111B41-ACA8-4D62-AE5D-AA689AAB649B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02343B5318697646002478F0 /* Build configuration list for PBXProject "VNReceiverBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02343B7918697646002478F0 /* Debug */,
+				02343B7A18697646002478F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02343B7B18697646002478F0 /* Build configuration list for PBXNativeTarget "VNReceiverBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02343B7C18697646002478F0 /* Debug */,
+				02343B7D18697646002478F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02343B5018697646002478F0 /* Project object */;
+}

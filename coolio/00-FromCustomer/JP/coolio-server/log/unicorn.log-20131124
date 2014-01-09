@@ -1,0 +1,48 @@
+I, [2013-11-17T14:31:16.834694 #31852]  INFO -- : Refreshing Gem list
+I, [2013-11-17T14:31:19.418355 #31852]  INFO -- : listening on addr=0.0.0.0:8080 fd=7
+I, [2013-11-17T14:31:19.746832 #31855]  INFO -- : worker=0 ready
+I, [2013-11-17T14:31:19.750619 #31852]  INFO -- : master process ready
+I, [2013-11-17T14:31:19.764637 #31856]  INFO -- : worker=1 ready
+2
+"04648c2f0a06a7cc7e9ad70e1a5fbb487cae3dc0"
+false
+"a51d05f9ef026b55ea7c9d0f69e26333de78513e"
+false
+"a51d05f9ef026b55ea7c9d0f69e26333de78513e"
+false
+"a51d05f9ef026b55ea7c9d0f69e26333de78513e"
+true
+"b9af3ea7d78f2d5c9c9c39b223321186c5b144b8"
+false
+"b9af3ea7d78f2d5c9c9c39b223321186c5b144b8"
+false
+"b9af3ea7d78f2d5c9c9c39b223321186c5b144b8"
+false
+"b9af3ea7d78f2d5c9c9c39b223321186c5b144b8"
+false
+"ffaffb0fc0deaf87e22bdb736e4920c07aad258e"
+false
+"b9af3ea7d78f2d5c9c9c39b223321186c5b144b8"
+false
+"b9af3ea7d78f2d5c9c9c39b223321186c5b144b8"
+false
+"b9af3ea7d78f2d5c9c9c39b223321186c5b144b8"
+false
+"ac3524ee16251131b6c6923a9fe13989e61b4791"
+false
+"ffaffb0fc0deaf87e22bdb736e4920c07aad258e"
+true
+E, [2013-11-23T09:29:00.919848 #31852] ERROR -- : worker=1 PID:31856 timeout (61s > 60s), killing
+E, [2013-11-23T09:29:00.942846 #31852] ERROR -- : reaped #<Process::Status: pid=31856,signaled(SIGKILL=9)> worker=1
+I, [2013-11-23T09:29:00.963956 #9294]  INFO -- : worker=1 ready
+"82ff95aeb9385d359e827ca809a2c4af8268c9a5"
+false
+"82ff95aeb9385d359e827ca809a2c4af8268c9a5"
+false
+"82ff95aeb9385d359e827ca809a2c4af8268c9a5"
+false
+"d614ff333ff45c15c64d2b3c3e617074fcf4c27b"
+true
+I, [2013-11-29T19:31:39.803107 #31852]  INFO -- : reaped #<Process::Status: pid=9294,exited(0)> worker=1
+I, [2013-11-29T19:31:39.820060 #31852]  INFO -- : reaped #<Process::Status: pid=31855,exited(0)> worker=0
+I, [2013-11-29T19:31:39.820284 #31852]  INFO -- : master complete

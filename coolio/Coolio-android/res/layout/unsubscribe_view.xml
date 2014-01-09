@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_unsub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud" >
+
+    <include layout="@layout/header_panel" />
+
+    <TextView
+        android:id="@+id/text_unsub_rule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:singleLine="false"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/unsubscribe_rule"
+        android:textColor="#000000" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_unsub_rule"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/require_email"
+        android:padding="10dp" 
+        android:background="@drawable/edittext_selector"
+        android:inputType="textEmailAddress" >
+    </EditText>
+    <Button
+        android:id="@+id/btn_unsubcribe"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/user_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_unsubcrible" >
+    </Button>
+    
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/user_email"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/require_password"
+        android:padding="10dp" 
+        android:background="@drawable/edittext_selector"
+        android:inputType="textPassword" />
+
+</RelativeLayout>

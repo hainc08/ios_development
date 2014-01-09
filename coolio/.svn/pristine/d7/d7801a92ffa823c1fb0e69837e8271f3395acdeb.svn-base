@@ -1,0 +1,9 @@
+I, [2013-12-11T22:30:17.066223 #5195]  INFO -- : Refreshing Gem list
+I, [2013-12-11T22:30:19.910384 #5195]  INFO -- : listening on addr=0.0.0.0:8080 fd=7
+I, [2013-12-11T22:30:20.284054 #5198]  INFO -- : worker=0 ready
+I, [2013-12-11T22:30:20.295458 #5195]  INFO -- : master process ready
+I, [2013-12-11T22:30:20.307562 #5199]  INFO -- : worker=1 ready
+"2ce2e8047c01b8fc8221b51df39c246b792a51ce"
+false
+"2ce2e8047c01b8fc8221b51df39c246b792a51ce"
+false

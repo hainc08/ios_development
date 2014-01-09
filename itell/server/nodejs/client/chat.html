@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chat socket</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/socket.io.min.js"></script>
+        <script>
+            function Chat() {
+                this.socket = null;
+                
+                this.Connect = function(uri) {
+                    socket = io.connect(uri);
+                    socket.on('connect', function(data){
+                        console.log('connected');
+                    })
+                    
+                    socket.on('error', function (data) {
+                        console.log(data || 'error');
+                    });
+
+                    socket.on('connect_failed', function (data) {
+                        console.log(data || 'connect_failed');
+                    });
+                    
+                    socket.on('message', function(message){
+                        console.log('message', message);
+                        var data = JSON.parse(message);
+                        $('#roomchat').append(data.sender + ': ' + data.msg + '\n');
+                    })
+                    socket.on('login', function(data){
+                        $('#roomchat').append(data.user + ' connected \n');
+                        //updateClientList(response);
+                    })
+                    socket.on('logout', function(data){
+                        $('#roomchat').append(data.user + ' disconnected \n');
+                        //updateClientList(response);
+                    })
+                }
+                
+                this.joinServer = function(user_id, uuid) {
+                    socket.emit('join_server', JSON.stringify({'user_id': user_id, 'uuid': uuid}), function(response) {
+                            var result = JSON.parse(response);
+                            console.log(result);
+                            //$('#roomchat').append(response + '\n');
+                            
+                            if (! result.retval) {
+                                $('#roomchat').append(result.error_msg + '\n');
+                            } else {
+                                $('#roomchat').append(result.user_info.nick + ' connected \n');
+                                //console.log(response);
+                                updateClientList(result);
+                            }
+                        })
+                }
+                this.Send = function(data) {
+                    socket.emit('message', JSON.stringify({'msg': data.msg, 'sender': data.sender, 'receiver': data.receiver}), function(response){
+                        var result = JSON.parse(response);
+                        console.log(result);
+                        //$('#roomchat').append(response + '\n');
+
+                        if (! result.retval) {
+                            $('#roomchat').append(result.error_msg + '\n');
+                        } else {
+                            $('#roomchat').append(result.sender + ': ' + result.msg + '\n');
+                        }
+                    })
+                }
+            }
+            updateClientList = function(data) {
+                $('#clients').append(data.user_info.nick + '\n');
+                /*$('#clients').append(data.server + ':\n');
+                for (var user in data.clients) {
+                    $('#clients').append(user + '->' + data.clients[user]+'\n');
+                }*/
+            }
+            var chati = new Chat();
+            //chati.Connect('127.0.0.1:9001');
+            chati.Connect('49.212.140.145:9001');
+            $(document).ready(function() {
+                $('#login').click(function(){
+                    var uuid = $('#uuid').val();                    
+                    var user_id = $('#user_id').val();                    
+                    chati.joinServer(user_id, uuid);
+                })
+                /*$('#instant').keypress(function(e){
+                    if (e.keyCode == 13) {
+                        //console.log($('#instant').val());
+                        var msg = $('#instant').val();
+                        chati.Send(msg);
+                    }
+                })*/
+                $('#send').click(function(){
+                    var msg = $('#instant').val();
+                    var user_id = $('#user_id').val();                    
+                    var receiver = $('#receiver').val();
+                    chati.Send({'msg': msg, 'sender': user_id, 'receiver': receiver});
+                })
+            })
+        </script>
+    </head>
+    <body>
+        User_id:<input id="user_id" type="text" size="20"/>        
+        UUID:<input id="uuid" type="text" size="20"/>        
+        <input id="login" type="button" value="Login"/><br/>
+        Msg:<input id="instant" type="text" size="30"/>
+        Receiver_id:<input id="receiver" type="text" size="10"/>
+        <input id="send" type="button" value="Send"/><br/>
+        <textarea cols="60" rows="20" id="roomchat" style="float: left"></textarea>
+        <textarea cols="30" rows="20" id="clients" style="float: left"></textarea>
+    </body>
+</html>

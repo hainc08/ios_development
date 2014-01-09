@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Message -->
+    <string name="message_load_image_error">Cannot get image</string>
+    <!-- URL -->
+    <string name="url_getcode">http://49.212.140.145/itell/user/get_code</string>
+    <string name="url_authen">http://49.212.140.145/itell/user/authen_code</string>
+    <string name="url_register">http://49.212.140.145/itell/user/regist_user</string>
+    <string name="url_checkUser">http://49.212.140.145/itell/user/check_user?uuid=</string>
+    <string name="url_listfriend">http://49.212.140.145/itell/friend/get_list_friend?user_id=%1$s&amp;uuid=</string>
+    <string name="url_listfriend_search">http://49.212.140.145/itell/friend/search_friend</string>
+    <string name="url_cancelItell">http://49.212.140.145/itell/itell/cancel_itell</string>
+    <string name="url_postItell">http://49.212.140.145/itell/itell/post_itell</string>
+    <string name="url_listInvite">http://49.212.140.145/itell/friend/get_list_invite?user_id=%1$s&amp;uuid=</string>
+    <string name="url_contactFriend">http://49.212.140.145/itell/friend/get_contacts_is_friend</string>
+    <string name="url_contactNoFriend">http://49.212.140.145/itell/friend/get_contacts_not_friend</string>
+    <string name="url_postitell">http://49.212.140.145/itell/itell/post_itell</string>
+    <string name="url_postContact">http://49.212.140.145/itell/setting/post_contact</string>
+    <string name="url_inviteMail">http://49.212.140.145/itell/friend/send_invite_email</string>
+    <string name="app_name">ITel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="itell">iTell</string>
+    <!-- Register -->
+    <string name="register_title">初回登録</string>
+    <string name="register_choseNet">Hay chon mang</string>
+    <string name="regis_inputNumber">Hay nhap vao so dien thoai</string>
+    <string name="regis_code">Hap nhap code qua tinh nhan</string>
+    <string name="regis_confirm">Da xac nhan</string>
+    <string name="regis_input_username">username</string>
+
+    <!-- -Friend -->
+    <string name="friend_title">Friend Search</string>
+    <string name="friend_list">Friends List</string>
+    <string name="friend_searchName">Tim nick name</string>
+    <string name="friend_who">Co the la nguoi quen?</string>
+    <string name="friend_invite">Invite</string>
+    <string name="friend_inputMailtoinvite"> ++  Input mail to invite friend ...</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_male">男性</string>
+    <string name="profile_female">女性</string>
+    <string name="profile_age">齢</string>
+    <string name="profile_public_restrict">公開制限</string>
+    <string name="profile_block">ブロック</string>
+    <string name="profile_album_text">Album</string>
+    <string name="profile_preview_ok">OK</string>
+    <!-- Chat -->
+    <string name="chat_title">Chat</string>
+    <string name="chat_available_time">I tell ﾎﾞﾀﾝ有効時間</string>
+    <string name="chat_chating">ﾁｬｯﾄ中</string>
+    <string name="chat_keyboard">標準ｷｰﾎﾞｰﾄﾞ</string>
+    <string name="chat_remain">残り</string>
+    <string name="chat_time">時間</string>
+    <string name="chat_time_minute">分</string>
+    <string name="chat_time_second">秒</string>
+    <string name="chat_btn_chat">Chat</string>
+    <string name="chat_btn_store">Store</string>
+    <string name="chat_cat_img">Category of stamp</string>
+    <!-- Map -->
+    <string name="map_button_map_title">Map</string>
+    <string name="map_button_list_title">List</string>
+    <string name="map_list_minute">分前</string>
+
+    <!-- Setting -->
+    <string name="profile_phone">電話番号（非公開）</string>
+    <string name="profile_name">名前（非公開）</string>
+    <string name="profile_nick_name">ニックネーム</string>
+    <string name="profile_birth_year">生年月日</string>
+    <string name="profile_public_birth">年齢公開</string>
+    <string name="profile_year">年</string>
+    <string name="profile_month">月</string>
+    <string name="profile_date">日</string>
+    <string name="setting_text">SETTING</string>
+
+    <!-- Privacy -->
+    <string name="privacy_blocklist">ブロックリスト</string>
+    <string name="privacy_getcontact">電話帳自動送信</string>
+    <string name="privacy_search">ニックネーム検索を許可</string>
+
+    <!-- Push -->
+    <string name="push_title">プッシュ通知設定</string>
+
+    <drawable name="map_bg_boy">#04b5b3</drawable>
+    <drawable name="map_bg_girl">#f48080</drawable>
+
+    <!-- color -->
+    <drawable name="selected">#dbe5f1</drawable>
+    <drawable name="blue">#7bacfa</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="gray">#F0F0F0</drawable>
+    <drawable name="DarkGray">#A9A9A9</drawable>
+    <drawable name="profileSetting">#fafafa</drawable>
+    <drawable name="LightSlateGray">#778899</drawable>
+
+    <string-array name="cameraUploadItems">
+        <item>Take a picture</item>
+        <item>Choose from gallery</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="AvatarOption">
+        <item>Preview Avatar</item>
+        <item>Delete Avatar</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>

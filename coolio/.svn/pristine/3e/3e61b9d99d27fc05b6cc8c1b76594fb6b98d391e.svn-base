@@ -1,0 +1,125 @@
+[#<User id: 18, email: "master.turki@gmail.com">]
+/usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53: /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `query': Mysql2::Error: Unknown column 'my_id' in 'where clause': DELETE FROM `masterpasswords` WHERE (my_id = 18) (ActiveRecord::StatementInvalid)
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:280:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:211:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:238:in `exec_delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/database_statements.rb:101:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:413:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:410:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `__send__'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `delete_all'
+	from /home/coolio/lib/cron_batch.rb:30:in `deletedUsersExecute'
+	from /home/coolio/lib/cron_batch.rb:13:in `each'
+	from /home/coolio/lib/cron_batch.rb:13:in `deletedUsersExecute'
+	from (eval):1
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `eval'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `require'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64
+	from script/rails:6:in `require'
+	from script/rails:6
+[#<User id: 18, email: "master.turki@gmail.com">]
+/usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53: /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `query': Mysql2::Error: Unknown column 'my_id' in 'where clause': DELETE FROM `masterpasswords` WHERE (my_id = 18) (ActiveRecord::StatementInvalid)
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:280:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:211:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:238:in `exec_delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/database_statements.rb:101:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:413:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:410:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `__send__'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `delete_all'
+	from /home/coolio/lib/cron_batch.rb:30:in `deletedUsersExecute'
+	from /home/coolio/lib/cron_batch.rb:13:in `each'
+	from /home/coolio/lib/cron_batch.rb:13:in `deletedUsersExecute'
+	from (eval):1
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `eval'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `require'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64
+	from script/rails:6:in `require'
+	from script/rails:6
+[#<User id: 18, email: "master.turki@gmail.com">]
+/usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53: /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `query': Mysql2::Error: Unknown column 'my_id' in 'where clause': DELETE FROM `masterpasswords` WHERE (my_id = 18) (ActiveRecord::StatementInvalid)
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:280:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:211:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:238:in `exec_delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/database_statements.rb:101:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:413:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:410:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `__send__'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `delete_all'
+	from /home/coolio/lib/cron_batch.rb:30:in `deletedUsersExecute'
+	from /home/coolio/lib/cron_batch.rb:13:in `each'
+	from /home/coolio/lib/cron_batch.rb:13:in `deletedUsersExecute'
+	from (eval):1
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `eval'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `require'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64
+	from script/rails:6:in `require'
+	from script/rails:6
+[#<User id: 18, email: "master.turki@gmail.com">]
+/usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53: /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `query': Mysql2::Error: Unknown column 'my_id' in 'where clause': DELETE FROM `masterpasswords` WHERE (my_id = 18) (ActiveRecord::StatementInvalid)
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:280:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:211:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:238:in `exec_delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/database_statements.rb:101:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:413:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:410:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `__send__'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `delete_all'
+	from /home/coolio/lib/cron_batch.rb:30:in `deletedUsersExecute'
+	from /home/coolio/lib/cron_batch.rb:13:in `each'
+	from /home/coolio/lib/cron_batch.rb:13:in `deletedUsersExecute'
+	from (eval):1
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `eval'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `require'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64
+	from script/rails:6:in `require'
+	from script/rails:6
+[#<User id: 18, email: "master.turki@gmail.com">]
+/usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53: /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `query': Mysql2::Error: Unknown column 'my_id' in 'where clause': DELETE FROM `masterpasswords` WHERE (my_id = 18) (ActiveRecord::StatementInvalid)
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:280:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract_mysql_adapter.rb:243:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:211:in `execute'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/mysql2_adapter.rb:238:in `exec_delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/database_statements.rb:101:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `delete'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:413:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/relation.rb:410:in `delete_all'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `__send__'
+	from /usr/lib64/ruby/gems/1.8/gems/activerecord-3.2.12/lib/active_record/querying.rb:7:in `delete_all'
+	from /home/coolio/lib/cron_batch.rb:30:in `deletedUsersExecute'
+	from /home/coolio/lib/cron_batch.rb:13:in `each'
+	from /home/coolio/lib/cron_batch.rb:13:in `deletedUsersExecute'
+	from (eval):1
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `eval'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands/runner.rb:53
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64:in `require'
+	from /usr/lib64/ruby/gems/1.8/gems/railties-3.2.12/lib/rails/commands.rb:64
+	from script/rails:6:in `require'
+	from script/rails:6

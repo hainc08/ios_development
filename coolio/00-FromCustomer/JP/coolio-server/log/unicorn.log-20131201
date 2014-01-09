@@ -1,0 +1,121 @@
+I, [2013-11-29T19:31:43.887422 #20199]  INFO -- : Refreshing Gem list
+I, [2013-11-29T19:31:45.531664 #20199]  INFO -- : listening on addr=0.0.0.0:8080 fd=7
+I, [2013-11-29T19:31:45.746958 #20199]  INFO -- : master process ready
+I, [2013-11-29T19:31:45.749142 #20202]  INFO -- : worker=0 ready
+I, [2013-11-29T19:31:45.757866 #20203]  INFO -- : worker=1 ready
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"c7a1c1dde90ad351b2ff6ed88b66195bb0c9600e"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+E, [2013-12-04T11:36:38.717898 #20199] ERROR -- : worker=1 PID:20203 timeout (61s > 60s), killing
+E, [2013-12-04T11:36:38.744675 #20199] ERROR -- : reaped #<Process::Status: pid=20203,signaled(SIGKILL=9)> worker=1
+I, [2013-12-04T11:36:38.770342 #27556]  INFO -- : worker=1 ready
+E, [2013-12-04T11:36:40.753979 #20199] ERROR -- : worker=0 PID:20202 timeout (61s > 60s), killing
+E, [2013-12-04T11:36:40.773366 #20199] ERROR -- : reaped #<Process::Status: pid=20202,signaled(SIGKILL=9)> worker=0
+I, [2013-12-04T11:36:40.797882 #27557]  INFO -- : worker=0 ready
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"1e38ecda3d9c60fd94e730847a627f1db9dc8be0"
+false
+"a803e8b5267ead4652a177bdec39b9e6b8c7b92b"
+false
+"5abc7ecbbe39192f75d22014146ffa4edb3fddc1"
+false
+"5abc7ecbbe39192f75d22014146ffa4edb3fddc1"
+false
+"38ab5ede280e1bc589a61e7109b11fc436d4695f"
+false
+"bab6a254dc2d1c223cb48d1bad8dc5c6d34fa439"
+false
+"e939db65277e61805aa717933ee336c175b82138"
+false
+"59ab1ff54884b7b8ef7307eeff0e1724e5975c41"
+false
+"4f6160a6f1a2a163af6739516cf25d6ab7ef3443"
+true
+"691e16857f9f729ec2d61baf5df7701879bafaa3"
+false
+"6e0837b22b398408ab79072b202d967a0be9e155"
+false
+"462f19820f8368ecf53b3e57a2ab5a151b2139e6"
+false
+"462f19820f8368ecf53b3e57a2ab5a151b2139e6"
+false
+"6e0837b22b398408ab79072b202d967a0be9e155"
+false
+"340f4daeee78e795de2265ea60156ee879b8cc79"
+false
+"340f4daeee78e795de2265ea60156ee879b8cc79"
+false
+"93876ea3ae0a03f7609ebee327abedbb0ad52031"
+false
+"93876ea3ae0a03f7609ebee327abedbb0ad52031"
+false
+"340f4daeee78e795de2265ea60156ee879b8cc79"
+false
+"340f4daeee78e795de2265ea60156ee879b8cc79"
+false
+"340f4daeee78e795de2265ea60156ee879b8cc79"
+false
+"16a547cd600e3118bdadb858030b1d6980d93cc7"
+true
+"7e4836350d5163ac2731f2bb661e3d1f63d0a124"
+true
+"af5b589eab347a36765cac0af9527c731046c788"
+false
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"af3e2cb5f73cf309e927bbe0ef8de25a6c0dcfae"
+false
+"5224480fa2fb76fc91a8cba349bd51439335198d"
+false
+"23dfd4a2354a8facca27bc8f8b1b1fa85fdc9689"
+false
+"969ad523a50838f0918b0b575bddba6bc63a6839"
+false
+[#<User email: "s-fukui@giga-works.com", age: 35, height: 185, weight: 70, updated_at: "2013-12-07 05:15:04">]
+"9197fabd9833e380c7162280f6d89e0a5d91b1cd"
+false
+"b1f8bb2d73515311076291917caf83238beca310"
+true
+"4f2741e33a01c97e544ff056a79e899b66e1b729"
+true
+"9243fd366ad3bf812a583f59217be936e7347c18"
+true
+"6e3164c018a5446b2992319b72450d21d25c5213"
+true
+"fd9df9bbad5f45198a8afbb9b55d9c89aeb22656"
+true
+"4f384418d7d96730a663683cb8db72ae9da924bb"
+false
+"9a25c1b962822b0c7cf22f099dcae1ad9af6cfee"
+false
+"01f502a571e779025e5f215c21fe5c7d830ce0de"
+false
+"4f384418d7d96730a663683cb8db72ae9da924bb"
+true
+"b90d0b09130e366a1f1a6b2cd7860d3d2dee11ac"
+false
+"b90d0b09130e366a1f1a6b2cd7860d3d2dee11ac"
+true
+"ca3207593f4079f5b899a77b4d078edd0dbf82e8"
+false
+"53251557e887e8903cb6ffa2d59433b36296ba53"
+true
+"aacf32e258ae32a10d6bffbed7afa8de328d4854"
+false
+"b1f8bb2d73515311076291917caf83238beca310"
+true
+I, [2013-12-11T22:30:13.714476 #20199]  INFO -- : reaped #<Process::Status: pid=27557,exited(0)> worker=0
+I, [2013-12-11T22:30:13.734520 #20199]  INFO -- : reaped #<Process::Status: pid=27556,exited(0)> worker=1
+I, [2013-12-11T22:30:13.734849 #20199]  INFO -- : master complete

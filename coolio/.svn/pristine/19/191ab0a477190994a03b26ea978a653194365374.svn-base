@@ -1,0 +1,460 @@
+/* 
+  Localizable.strings
+  Coolio
+
+  Created by hoehoe on 2013/03/15.
+  Copyright (c) 2013年 Gigaworks. corp. All rights reserved.
+*/
+
+"LOGOUT_BUTTON" = "Logout";
+"CANCEL_BUTTON" = "Cancel";
+
+"HTTP_ERROR" = "Server Error.";
+//"DISCARD_BUTTON" = "Discard";
+
+"BLOCK_BUTTON" = "Block";
+"REPORT_BUTTON" = "Report";
+
+"BLOCK_VIEW_EDIT_BUTTON_EDITABLE" = "Edit";
+"BLOCK_VIEW_EDIT_BUTTON_CANCEL" = "Cancel";
+
+"Empty password or E-mail address" = "Empty password or E-mail address.";
+"Pass lock Settings" = "Settings";
+"SEARCHBAR_TITLE" = "NickName or Comments.";
+"ALERT_LOCATION_SERVICE" = "Please enable location services.";
+"Bad Parameter" = "Symbol that can not be handled run together.";
+
+//"AGREEMENT_MESSAGE1" = "Do you agree to the terms?";
+//"AGREEMENT_MESSAGE2" = "Please agree to the terms.";
+//"ALERT_LOGIN_EMPTY" = "Login ID or Password is empty.";
+//"ALERT_LOGIN_LOCKED" = "This account locked.";
+//"ALERT_LOGIN_DIFFERENT" = "Login ID or Password is different.";
+"ALERTVIEW_ZERO" = "There is no current alerts.";
+
+"INFOVIEW_ZERO" = "There is no current announcement.";
+
+"ALERT_APPSETTING_REQUIRE" = "Please set the required items.";
+"ALERT_REGISTERED" = "E-mail address or Nickname has already been registered.";
+"ALERT_SAVED" = "Save";
+
+//"ALERT_FORGATPASS_SEND_EMAIL" = "Your password has been sent.";
+//"ALERT_EMAIL_DIFFERENT" = "E-mail address is different.";
+
+"FILTER_UNDER" = "Under";
+"FILTER_OVER" = "Over";
+
+"ALERT_REPORT_SENDED" = "Thank you for Reporting.";
+
+"REPORT_UNCENSORED_PICTURES" = "Uncensored pictures.";
+"REPORT_SPAM_TEXT" = "Spam text messages.";
+"REPORT_PROSTITUTES" = "Prostitutes(male/female).";
+"REPORT_FISHING_SITE" = "Conducted to fishing site.";
+"REPORT_COPYRIGHT_PICTURES" = "Non-copyrighted pictures.";
+"REPORT_I_FOUND_MINORS" = "I found minors.";
+"REPORT_UNLAWFUL_ACTION" = "Unlawful action.";
+"REPORT_VIOLENT_CONTENTS" = "Dangerous or violent contents.";
+"REPORT_OTHERS" = "Others.";
+
+
+
+"AGREEMENT_MESSAGE1" = "Do you agree to the terms?";
+"AGREEMENT_MESSAGE2" = "Please agree to the terms.";
+"ALERT_LOGIN_EMPTY" = "Login ID or Password is empty.";
+"ALERT_LOGIN_LOCKED" = "This account locked.";
+"ALERT_LOGIN_DIFFERENT" = "Login ID or Password is different.";
+
+"ALERT_EMAIL_SENDED" = "E-mail has been sent.";
+"ALERT_EMAIL_ALREADY_REGISTERED" = "This e-mail address is already registered.";
+"ALERT_EMAIL_DIFFERENT" = "E-mail address is different.";
+"ALERT_FORGATPASS_SEND_EMAIL" = "Your password has been sent.";
+"ALERT_UNSUB_CONFIRM" = "Do you want to unsubscribe?";
+"ALERT_UNSUB_COMP" = "Completion Unsubscribe.";
+"ALERT_UNSUB_INCORRECT" = "Email address or password is incorrect." ;
+
+"ALERT_AGEPUBLISH_ERROR_01" = "Maximum value of age is below the minimum value.";
+"ALERT_AGEPUBLISH_ERROR_02" = "Minimum age 18. The maximum value is 99.";
+
+"ALERT_EMPTY_EMAIL" = "E-mail address is empty.";
+"ALERT_VALID_EMAIL" = "Not in the E-mail format.";
+"ALERT_PROFILE_SAVE_NG" = "Input information is not enough.";
+"NETWORK_ERROR" = "Can not Connect to Internet.";
+
+//"ALERT_FILTER_RESET_MESSAGE" = "Discard?";
+
+
+"ADD_FRIENDLIST" = " Do you add %@ to Friend List?";
+"MOVE_FRIENDLIST" = "Do you move %@ from Silent Match to Friend List?";
+"REMOVE_FRIENDLIST" = "Do you remove %@ from Friend List?";
+
+"ADD_MATCHLIST" = "Do you add %@ to Silent Match?";
+"MOVE_MATCHLIST" = "Do you move %@ from Friend List to Silent Match?";
+"REMOVE_MATCHLIST" = "Do you remove %@ from Silent Match?";
+
+"ADD_BLOCKLIST" = "Do you add %@ to Block List?";
+"REMOVE_BLOCKLIST" = "Do you remove %@ from Block List?";
+
+/*
+ "名前"をフレンドリストに登録しますか？
+ Do you add "名前" to Friend List?
+ 
+ "名前"をフレンドリストから削除しますか？（非通知）
+ Do you remove "名前" from Friend List? (Non-Disclosed)
+ 
+ "名前"をフレンドリストからマッチリストに移動しますか？（非通知）
+ Do you move "名前" from Friend List to Match List? (Non-Disclosed)
+ 
+ "名前"をフレンドリストからブロックリストに移動しますか？（非通知）
+ Do you move "名前" from Friend List to Block List? (Non-Disclosed)
+ 
+ "名前"をマッチリストに登録しますか？（非通知）
+ Do you add "名前" to Match List? (Non-Disclosed)
+ 
+ "名前"をマッチリストからフレンドリストに移動しますか？
+ Do you move "名前" from Match List to Friend List?
+ 
+ "名前"をマッチリストから削除しますか？（非通知）
+ Do you remove "名前" from Friend List? (Non-Disclosed)
+ 
+ "名前"をマッチリストからブロックリストに移動しますか？（非通知）
+ Do you move "名前" from Match List to Block List? (Non-Disclosed)
+ 
+ "名前"をブロックリストに登録しますか？（非通知）
+ Do you add "名前" to Block List? (Non-Disclosed)
+ 
+ "名前"をブロックリストからフレンドリストに移動しますか？
+ Do you move "名前" from Block List to Friend List?
+ 
+ "名前"をブロックリストからマッチリストに移動しますか？（非通知）
+ Do you move "名前" from Block List to Match List? (Non-Disclosed)
+ 
+ "名前"をブロックリストにから削除しますか？（非通知）
+ Do you remove "名前" from Block List? (Non-Disclosed)
+*/
+
+"MENU_MEMBER" = "Members";
+"MENU_MYFRIENDS" = "My Friends";
+"MENU_SILENTMATCH" = "Silent Match";
+"MENU_HISTORY" = "My History";
+
+"MENU_CHAT" = "Chat";
+
+"MENU_FRIENDS" = "Friends";
+"MENU_MATCH" = "Matched";
+"MENU_FOOTPRINT" = "Footprint";
+
+"MENU_ALERT" = "Alert";
+"MENU_INFORMATION" = "Information";
+"MENU_SETTINGS" = "Profile & Settings";
+"MENU_PASSLOCK" = "Pass-Lock";
+"MENU_TERMPOLICY" = "Term & Policy";
+"MENU_UNSUB" = "Unsubscribe";
+"MENU_LOGOUT" = "Logout";
+
+"MENU_SECTIONITEM_MEET" = "Meetup";
+"MENU_SECTIONITEM_CHAT" = "Chats";
+"MENU_SECTIONITEM_NOTICE" = "Notification";
+"MENU_SECTIONITEM_ALERT" = "Alert";
+"MENU_SECTIONITEM_GENERAL" = "General";
+
+"SETTINGS_CELL_PICTURE" = "Picture";
+"SETTINGS_CELL_PROFILE" = "Profile";
+"SETTINGS_CELL_PRIVACY" = "Privacy Settings";
+"SETTINGS_CELL_FOOTPRINT" = "Footprint";
+"SETTINGS_CELL_BLOCKS" = "Blocks";
+"SETTINGS_CELL_NOTIFICATIONS" = "Notifications";
+
+//email
+//password
+//nickname
+//age
+//height
+//weight
+
+"sexGay" = "Gay";
+"sexBisex" = "Bisexuality";
+"sexStraight" = "Almost Straight";
+
+"raceAsian" = "Asian";
+"raceWhite" = "White";
+"raceBlack" = "Black";
+"raceLatin" = "Latin";
+"raceArab" = "Arab";
+"racePolynesian" = "Polynesian";
+"raceMix" = "Mix";
+"raceEtc" = "Etc";
+
+"styleTwink" = "Twink";
+"styleHunk" = "Hunk / Jock / Blue-collar";
+"styleSurfer" = "Surfer";
+"styleHipHop" = "Hip Hop";
+"styleThug" = "Thug / Bad Boy";
+"stylePunk" = "Punk / Emo";
+"styleWhiteCollar" = "White-collar";
+"styleHardcoreGay" = "Hardcore Gay / Leather / BDSM";
+"stylePotato" = "Potato (Unchic / Unsophisticated)";
+"styleBear" = "Bear";
+"styleGeek" = "Geek";
+"styleChubby" = "Chubby";
+"styleBeefy" = "Beefy / Wrestler";
+"styleBodybuilder" = "Bodybuilder / Macho";
+"styleWellMuscled" = "Slim & Well-Muscled";
+"styleSlimSkinny" = "Slim & Skinny";
+"styleFeminine" = "Feminine / Girly";
+"styleShemale" = "Shemale / Ladyboy";
+"styleEtc" = "Etc";
+
+"lookingLover" = "Lover";
+"lookingFriend" = "Friend";
+"lookingEPal" = "E-Pal";
+"lookingMPal" = "Messenger Pal";
+"lookingTPal" = "Tel Pal";
+"lookingCircle" = "Circle / Groupmate";
+"lookingRoommate" = "Roommate";
+"lookingBPartner" = "Business Partner";
+"lookingFriendWithBenefits" = "Friend with Benefits";
+
+"bodyShapeSecret" = "Secret / Unknown";
+"bodyShapeSlim" = "Slim";
+"bodyShapeAverage" = "Average";
+"bodyShapeChubby" = "Chubby";
+"bodyShapeVeryChubby" = "Very Chubby";
+
+"muscleSecret" = "Secret / Unknown";
+"muscleDelicate" = "Delicate";
+"muscleAverage" = "Average";
+"muscleWellBuilt" = "Well-built";
+"muscleBodybuilder" = "Bodybuilder / Macho";
+
+"bodyHairSecret" = "Secret / Unknown";
+"bodyHairSmooth" = "Smooth";
+"bodyHairAverage" = "Average";
+"bodyHairHairy" = "Hairy";
+
+"hairStyleSecret" = "Secret / Unknown";
+"hairStyleShavedHead" = "Shaved Head";
+"hairStyleShortHair" = "Short Hair";
+"hairStyleAverage" = "Average";
+"hairStyleSemiLongHair" = "Semi Long Hair";
+"hairStyleLongHair" = "Long Hair";
+"hairStyleUniqueStyle" = "Unique Style";
+
+"hairColorSecret" = "Secret / Unknown";
+"hairColorBlack" = "Black";
+"hairColorBrown" = "Brown / Red";
+"hairColorBlond" = "Blond";
+"hairColorWhite" = "White";
+"hairColorUniqueColor" = "Unique Color";
+
+"otherCharacteristicsMustache" = "Mustache / Beard";
+"otherCharacteristicsTanningSkin" = "Tanning Skin";
+"otherCharacteristicsGlasses" = "Glasses";
+"otherCharacteristicsPiarce" = "Piarce";
+"otherCharacteristicsTatoo" = "Tatoo";
+
+/*
+personalityCheerful
+personalitySerious
+personalityFunny
+personalityTakeTheLead
+personalitySociable
+personalityFollow
+personalityFlashy
+personalityActBasedOnEmotions
+personalityBold
+personalityWantStimulation
+personalityRealism
+personalityOptimistic
+personalityMasculine
+personalityStrongPerson
+personalityWantToProtect
+personalityIndoorsy
+personalityBookishType
+personalityLoveToTalkAbout
+personalityLookingToMeet
+*/
+
+"gayCareerSecret" = "Secret / Unknown";
+"gayCareerBeginner" = "Beginner";
+"gayCareerAverage" = "Average";
+"gayCareerExpert" = "Expert";
+
+"comingoutSecret" = "Secret / Unknown";
+"comingoutNobodyKnows" = "Nobody knows";
+"comingoutSomeoneCloseKnow" = "Someone close know";
+"comingoutMostPeopleKnow" = "Most people know";
+
+"loveStylesSecret" = "Secret / Unknown";
+"loveStylesClose" = "Close";
+"loveStylesAverage" = "Average";
+"loveStylesSimple" = "Simple";
+"loveStylesUpToyou" = "Up To you";
+
+"expectSecret" = "Secret / Unknown";
+"expectpersonality" = "Personality";
+"expectAppearance" = "Appearance";
+"expectAtmosphere" = "Atmosphere";
+"expectBody" = "Body";
+"expectSex" = "Sex";
+"expectInterest" = "Interest / Taste";
+"expectCircumstance" = "Circumstance / Background";
+"expectFinance" = "Finance / Job";
+"expectDistance" = "Distance";
+
+"jobSecret" = "Secret / Unknown";
+"jobStudent" = "Student";
+"jobBetweenJobs" = "Between Jobs";
+"jobOfficeWork" = "Office Work";
+"jobServices" = "Services";
+"jobManufacturing" = "Manufacturing";
+"jobComputer" = "Computer";
+"jobLanguage" = "Language / Education";
+"jobAssets" = "Assets / Finance";
+"jobLaw" = "Law";
+"jobMedia" = "Media";
+"jobPublishing" = "Publishing";
+"jobDomestic" = "Domestic / International Contribution";
+"jobMedicalProfession" = "Medical Profession";
+"jobHealth" = "Health / Welfare";
+"jobArchitecture" = "Architecture / Interior Design";
+"jobCreativeProfession" = "Creative Profession / Art";
+"jobCooking" = "Cooking / Food Service";
+"jobVehicle" = "Vehicle / Transportation";
+"jobTravel" = "Travel";
+"jobBeauty" = "Beauty / Fashion";
+"jobEntertainment" = "Entertainment";
+"jobReligiousProfession" = "Religious Profession";
+"jobCeremonialOccasions" = "Ceremonial Occasions";
+"jobNature" = "Nature / Animal";
+"jobSports" = "Sports";
+"jobSexIndustry" = "Sex Industry";
+
+"livingSecret" = "Secret / Unknown";
+"livingAlone" = "Living Alone";
+"livingwithFamily" = "Living with Family";
+"livingwithFriendsorLovers" = "Living with Friends or Lovers";
+
+"lifePolicyVegetarian" = "Vegetarian";
+"lifePolicyNoSmoking" = "No Smoking";
+"lifePolicyNoDrinking" = "No Drinking";
+"lifePolicyNoGambling" = "No Gambling";
+"lifePolicyNoSex" = "No Sex";
+
+"sexPositionSecret" = "Secret / Unknown";
+"sexPositionTop" = "Top";
+"sexPositionBottom" = "Bottom";
+"sexPositionVersatile" = "Versatile";
+
+//"penisSize" = "";
+
+"penisThicknessSecret" = "Secret / Unknown";
+"penisThicknessSlender" = "Slender";
+"penisThicknessAverage" = "Average";
+"penisThicknessPlump" = "Plump";
+"penisThicknessExtraThick" = "Extra Thick";
+
+"phimosisSecret" = "Secret / Unknown";
+"phimosisCut" = "Cut / Exposed";
+"phimosisUncut" = "Uncut (False Phimosis)";
+"phimosisOverhang" = "Overhang (Complete Phimosis)";
+
+"sadomasochismSecret" = "Secret / Unknown";
+"sadomasochismSadistic" = "Sadistic";
+"sadomasochismMasochistic" = "Masochistic";
+"sadomasochismBoth" = "Both";
+"sadomasochismNeither" = "Neither";
+
+"fetishBDSM" = "BDSM";
+"fetishBigCock" = "Big Cock";
+"fetishSmallCock" = "Small Cock";
+"fetishUncut" = "Uncut";
+"fetishSmellFetish" = "Smell Fetish";
+"fetishUniformFetish" = "Uniform Fetish / Cosplay";
+"fetishRubber" = "Rubber / Leather";
+"fetishDrag" = "Drag / Transvestite";
+"fetishFlasher" = "Flasher / Exposure";
+"fetishGangbang" = "Gangbang";
+"fetishHardcorePlay" = "Hardcore Play";
+"fetishPhoneSex" = "Phone Sex / Cyber Sex";
+"fetishTeenLover" = "Teen Lover";
+"fetishMatureLover" = "Mature Lover";
+"fetishChubbyLover" = "Chubby Lover";
+
+"TBL_FORMAT_PROFILE" = "Age: %@, Height: %@, Weight: %@";
+
+
+"No_Set" = "No Set";
+"Neutral" = "Neutral";
+"Moderately" = "Neutral";
+
+"Cheerful_and_lively" = "Cheerful and lively";
+"Calm_and_quiet" = "Calm and quiet";
+"Serious_and_dependable" = "Serious and dependable";
+"Frank_and_versatile" = "Frank and versatile";
+"Funny" = "Funny";
+"Cool" = "Cool";
+"Take_the_lead_/_active_role" = "Take the lead / active role";
+"Follow_/_passive_role" = "Follow / passive role";
+"Sociable_and_worldly" = "Sociable and worldly";
+"Naive_and_clumsy" = "Naive and clumsy";
+"Follow_the_latest_trends" = "Follow the latest trends";
+"Going_own_way" = "Going own way";
+"Flashy" = "Flashy";
+"Conservative" = "Conservative";
+"Act_based_on_emotions" = "Act based on emotions";
+"Act_based_on_reasons" = "Act based on reasons";
+"Bold" = "Bold";
+"Cautious" = "Cautious";
+"Want_stimulation" = "Want stimulation";
+"Want_peace" = "Want peace";
+"Realism" = "Realism";
+"Idealism" = "Idealism";
+"Optimistic" = "Optimistic";
+"Pessimistic" = "Pessimistic";
+"Masculine" = "Masculine";
+"Feminine" = "Feminine";
+"I_am_a_strong_person" = "I am a strong person";
+"I_am_a_weak_person" = "I am a weak person";
+"Want_to_protect" = "Want to protect";
+"Want_to_be_protected" = "Want to be protected";
+"Indoorsy" = "Indoorsy";
+"Outdoorsy" = "Outdoorsy";
+"Bookish_type" = "Bookish type";
+"Athletic_type" = "Athletic type";
+"Love_to_talk_about_serious_topics_such_as_politics_and_economics" = "Love to talk about serious topics such as politics and economics";
+"Just_want_to_have_fun_without_being_pompous" = "Just want to have fun without being pompous";
+"Looking_to_meet_a_lot_of_people" = "Looking to meet a lot of people";
+"Looking_for_THE_one" = "Looking for THE one";
+
+
+"Sexuallity_header_title" = "Sexuallity";
+"Race_header_title" = "Race";
+"Your_style_header_title" = "Your Style";
+"Looking_for_header_title" = "Looking for...";
+"Body_shape_header_title" = "Body shape";
+"Muscle_header_title" = "Muslce";
+"Body_hair_header_title" = "Body hair";
+"Hair_style_header_title" = "Hair Style";
+"Hair_color_header_title" = "Hair Color";
+"Other_characteristics_header_title" = "Other Characteristics";
+//"Personality_header_title" = "Personality";
+"Gay_career_header_title" = "Gay career";
+"Coming_out_header_title" = "Coming out";
+"Love_sytles_header_title" = "Love sytles";
+"Expect_header_title" = "What do you expect the most in companion?";
+"Job_header_title" = "Job";
+"Living_header_title" = "Home";
+"LifePolicy_header_title" = "Life policy";
+"SexPosition_header_title" = "Sex position";
+"PenisThickness_header_title" = "Penis thickness";
+"Phimosis_header_title" = "Phimosis";
+"Sadomasochism_header_title" = "Sadomasochism";
+"Fetish_header_title" = "Fetish";
+
+
+
+
+
+
+
+
+
